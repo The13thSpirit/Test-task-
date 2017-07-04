@@ -1,0 +1,287 @@
+.bordered {
+    border-style: solid;
+    border-color: red;
+    border-width: 0.1px;
+}
+
+.container {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 768px) {
+    .container {
+    width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+    width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+    width: 1172px;
+    }
+}
+    
+.container-fluid {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+    
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.navbar-collapse {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+* {
+    border-color: green;
+    border-style: solid;
+    border-width: 1px;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+header > .container > .row {
+    
+}
+
+header > .container > .row > div {
+    display: inline-block;
+    vertical-align: middle;
+    height: 109px;
+}
+
+/*#parent {
+    display: table;
+    height: 200px;
+}
+#child {
+    display: table-cell;
+    vertical-align: middle;
+}
+.outer {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: #ffc;
+}
+.inner {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    background-color: #fcc;
+}*/
+/*#logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb( 235, 60, 0 );
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 109px;
+    padding-left: 10px;
+    padding-right: 10px;
+}*/
+
+#title {
+    display: block;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    font-style: italic;
+    color: rgba( 40, 40, 40, 0.502 );
+    text-decoration: none;
+/*    padding-top: 55px;*/
+}
+
+#login {
+/*    line-height: 109px;*/
+}
+
+#login a {
+    font-size: 13px;
+    font-family: 'PT Serif', serif;
+    color: rgb( 40, 40, 40 );
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+#login a i {
+    font-size: 14px;
+    color: rgb( 238, 68, 0 );
+    padding-right: 8px; 
+}
+
+
+#contacts {
+    text-align: center;
+    background-color: rgb( 238, 68, 0 );
+/*    margin: 32px 10px 32px 32px;*/
+}
+
+#contacts a {
+    font-size: 13px;
+    font-family: 'PT Serif', serif;
+    color: rgb( 255, 255, 255 );
+    font-style: italic;
+    text-transform: uppercase;
+/*    line-height: 45px;*/
+    text-decoration: none;
+}
+
+
+
+#main-menu {
+    border-radius: 0px;
+    background-color: #282828;
+    border-color: #282828;
+    border: 0px;
+    margin-bottom: 0px;
+}
+
+#main-menu a {
+    display: block;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 26px 17px;
+}
+
+#main-menu .active>a {
+    background-color: rgb( 235, 60, 0 );
+}
+
+#search-form .form-group{
+    background-color: rgb( 255, 255, 255 );
+    margin: 8px 0px;
+}
+
+#search-form input[type="search"] {
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+    color: rgba( 40, 40, 40, 0.2 );
+    border-radius: 0px;
+    box-shadow: none;
+    border: none;
+    border-width: 0px;
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    height: 40px;
+    width: 194px;
+}
+
+#search-form button[type="submit"] {
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+#search-form i{
+    font-size: 18px;
+    color: rgba( 45, 51, 64, 0.6 );
+    padding: 5px;
+}
+
+
+#content {
+    /*padding-top: 20px;*/
+}
+
+#content h1 {
+    font-size: 48px;
+    font-family: "Oswald", sans-serif;
+    color: #282828;
+    line-height: 1.25;
+    padding-top: 27px;
+}
+
+#content h2 {
+    font-size: 24px;
+    font-family: "PT Serif", serif;
+    color: #282828;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+#list {
+    font-size: 18px;
+    font-family: "PT Serif", serif;
+    color: #282828;
+    line-height: 1.5;
+}
+
+#list h3 {
+    font-weight: bold;
+}
+
+#list ul {
+    padding-left: 0px;
+     list-style-position: inside;
+}
+
+
+#news {
+    padding: 24px 0px;
+}
+
+#news h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: rgb( 235, 60, 0 );
+    line-height: 1.929;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+}
+
+#news a, #news h4, #to-top {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #282828;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#to-top {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 13px;
+}
+
+#to-top i {
+    font-size: 14px;
+    padding-right: 6px;
+    padding-top: 3px;
+    vertical-align: top;
+}
